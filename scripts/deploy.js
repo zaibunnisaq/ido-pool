@@ -1,8 +1,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  // Deploy mock tokens first for testing purposes
-  // In a real scenario, you would use existing token addresses
+  
   const MockERC20 = await hre.ethers.getContractFactory("MockERC20");
   
   console.log("Deploying Payment Token...");
